@@ -10,7 +10,7 @@ namespace it;
 
 /**
  */
-class IterableTest extends \PHPUnit_Framework_TestCase
+class itTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @return array
@@ -61,6 +61,6 @@ class IterableTest extends \PHPUnit_Framework_TestCase
      */
     public function testGetIterator(array $expected, array $args)
     {
-        $this->assertEquals($expected, iterator_to_array(new Iterable(...$args)));
+        $this->assertEquals($expected, iterator_to_array(new it(...$args)));
     }
 }

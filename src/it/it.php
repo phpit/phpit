@@ -10,7 +10,7 @@ namespace it;
 
 /**
  */
-class Iterable implements \IteratorAggregate
+class it implements \IteratorAggregate
 {
     /**
      * @var \Traversable

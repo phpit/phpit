@@ -11,9 +11,9 @@ namespace it;
 /**
  * @param iterable ... $iterable
  *
- * @return \it\Iterable
+ * @return \it\it
  */
 function it()
 {
-    return new Iterable(...func_get_args());
+    return new it(...func_get_args());
 }
